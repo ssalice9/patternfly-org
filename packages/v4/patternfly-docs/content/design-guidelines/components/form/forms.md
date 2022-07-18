@@ -24,7 +24,6 @@ related: [
 
 A **form** is a group of elements used to collect information from a user in a variety of contexts including in a modal, in a wizard, or on a page. Use cases for forms include tasks reliant on user-inputted information for completion like logging in, registering, configuring settings, or completing surveys.
 
-Use forms to accomplish tasks reliant on user-inputted information like logging in, registering for accounts or services, configuring settings, or completing surveys.
 
 ## Elements
 
@@ -70,19 +69,19 @@ PatternFly provides a variety of input components that enable a user to make a s
 <img src="./img/data-inputs.png" alt="A visual representation of each data input type and their purpose: Switches for toggling between two states, radio buttons for choosing one option from multiple options, checkboxes for choosing any number of items from a list, and select lists for choosing one or more options from a list of more than five options" width="804"/>
 
 
-#### Switch
+### Switch
 
 Use a [switch](/components/switch/design-guidelines) to toggle between 2 different states in a form.
 
-#### Radio buttons
+### Radio buttons
 
 Use [radio buttons](/components/radio/design-guidelines) when users can only choose 1 option from a list of 2 to 5 mutually exclusive options.  
 
-#### Checkboxes
+### Checkboxes
 
 Use [checkboxes](/components/checkbox/design-guidelines) to enable users to select all, some, or none of the available options from a list of up to 5 items.
 
-#### Select lists
+### Select lists
 
 Use a [select list](/components/select/design-guidelines) to enable users to select 1 or more options from a list of more than 5 items.
 
@@ -113,7 +112,10 @@ Form submit buttons should be disabled until a user starts filling out the form 
 * For a submitted form, disable the submit button while a user's responses are processing to avoid a duplicate submission.
 * For a processing form, use feedback messages and progress indicators like spinners or progress bars if the processing time might exceed user expectations.
 
-## Form sections
+## Usage
+Use forms to accomplish tasks reliant on user-inputted information like logging in, registering for accounts or services, configuring settings, or completing surveys.
+
+### Form sections
 
 Form sections sort form fields into non-hierarchical groups based on common information type, step, or visual preference. Form sections are ideal for breaking long forms into simple, evenly spaced segments with all information exposed. 
 
@@ -125,7 +127,7 @@ To distinguish between form sections, title them based on the reason you grouped
 
 To view an interactive example of form sections, see our [form sections demo](/components/form/#form-sections).
 
-## Field groups
+### Field groups
 
 Field groups sort form fields into hierarchical, collapsible groups based on theme. All field groups are nested and indented by default, so they create a clearer information architecture between groups. Since all elements won't be visible at all times, always title field groups based on their purpose. Field groups are ideal for building a more dimensional form structure or condensing lengthy forms into digestible, expandable segments.
 
@@ -147,7 +149,7 @@ Example: For a form with multiple field groups, distinguish between each one by 
 
 To view an interactive example of field groups, see our [field groups demo](/components/form#field-groups).
 
-## User guidance
+### User guidance
 
 Due to their interactive nature, forms often include features that help communicate field importance and guidance as users complete them. 
 
@@ -157,7 +159,7 @@ Types of user guidance include:
 * **User help:** Assists users in context through placeholder text, helper text, and popovers.
 * **Progressive disclosure:** Hides and shows fields based on user selections to simplify their workflow.
 
-### Required fields
+#### Required fields
 
 Reserve required fields for information vital to user success. Indicate a required field with an asterisk ( * ) to the right of its field label.
 
@@ -233,7 +235,7 @@ Use progressive disclosure to hide and show form fields based on a user’s sele
 
  <img src="./img/progressive-disclosure.png" alt="Example of progressive disclosure with one radio button selected to only show the inputs associated with that option" width="562"/>
 
-## Errors and validation
+### Errors and validation
 
 When a form field submission results in an error, let users know as soon as possible and as close as possible to the error. Default to presenting error states on a form using field level errors whenever possible. 
 
@@ -330,7 +332,7 @@ Never design multi-column forms to read like a magazine or newspaper column, whe
 
 <img src="./img/multi-column-read.png" alt="Example of how multi-column forms should be read and presented, demonstrated by arrows that follow a user's path of consumption"/>
 
-## Content
+## Content Considerations
 
 When writing form content, use your understanding of the user’s task and context to plan your content hierarchy. As a user moves through a form, they input and select information based on the content provided, almost like a conversation. 
 
